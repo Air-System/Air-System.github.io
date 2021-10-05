@@ -9,7 +9,7 @@ var _ = {
         },
         "file":{
             "parsing":function(URL){
-                URL = URL.replace(/json:\/\//gi,"_.file.");
+                URL = URL.replace(/json:\/\//gi,"_.file.")
                 return URL.replace(/\//gi,".inner.");
             },
             "new":function(URL,name,type){
