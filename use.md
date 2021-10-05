@@ -27,6 +27,12 @@ inner - 内容
 # 时间
 在air系统中,您可以使用_.system.date()获取一个准确的时间
 
+# 屏幕元素
+您可以用_.system.screen.add(inner,object)
+向目标元素增加内容
+inner - 内容
+object - 目标对象
+
 # 启动
 由于Air System是一个嵌入式系统,所以你要设定一个对象作为显示器
 使用 _.system.boot(object) 进行设置
